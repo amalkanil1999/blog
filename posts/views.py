@@ -40,7 +40,7 @@ def create_posts(request):
                 "message": "Successfully submitted",
                 "status": "success",
                 "redirect": "yes",
-                "redirect_url": "/",
+                "redirect_url": "/",                                                                                                                                                                    
             }
 
             return HttpResponse(json.dumps(response_data), content_type="application/json")
